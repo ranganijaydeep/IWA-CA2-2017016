@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<phonemenu>
+  <section name="IOS Devices">
+    <entree Apple="true">
+      <item>IPhone 6</item>
+      <price>200</price>
+    </entree>
+    <entree Apple="true">
+      <item>IPhone 6 Plus</item>
+      <price>250</price>
+    </entree>
+    <entree Apple="true">
+      <item>IPhone 6s</item>
+      <price>275</price>
+    </entree>
+    <entree Apple="true">
+      <item>IPhone 6s Plus</item>
+      <price>325</price>
+    </entree>
+    <entree Apple="true">
+      <item>IPhone 7</item>
+      <price>350</price>
+    </entree>
+    <entree Apple="true">
+      <item>IPhone 7 Plus</item>
+      <price>420</price>
+    </entree>
+    <entree>
+      <item>iphone xs</item>
+      <price>970</price>
+    </entree>
+  </section>
+  <section name="Android"/>
+  <section name="Kai OS">
+    <entree>
+      <item>Doro Primo 615</item>
+      <price>69</price>
+    </entree>
+  </section>
+  <section name="Basic">
+    <entree Nokia="true">
+      <item>Nokia 105</item>
+      <price>30</price>
+    </entree>
+    <entree Nokia="true">
+      <item>Nokia 150</item>
+      <price>35</price>
+    </entree>
+    <entree Nokia="true">
+      <item>Nokia 200</item>
+      <price>40</price>
+    </entree>
+    <entree Nokia="true">
+      <item>Nokia 205</item>
+      <price>45</price>
+    </entree>
+  </section>
+</phonemenu>
