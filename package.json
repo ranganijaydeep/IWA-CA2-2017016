@@ -1,0 +1,27 @@
+{
+  "name": "iwa-ca2-2017016",
+  "version": "1.0.0",
+  "description": "CA1 Jaydeep Rangani 2017016",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranganijaydeep/IWA-CA2-2017016.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranganijaydeep/IWA-CA2-2017016/issues"
+  },
+  "homepage": "https://github.com/ranganijaydeep/IWA-CA2-2017016#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "path": "^0.12.7",
+    "xml2js": "^0.4.23",
+    "xslt-processor": "^0.11.5"
+  }
+}
