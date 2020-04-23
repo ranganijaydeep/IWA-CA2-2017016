@@ -1,27 +1,28 @@
- const express=require('express');
- const app=express();
- const mongoose=require('mongoose');
- const bodyParser=require('body-parser');
- require('dotenv/config');
+const express = require('express');
+const app = express();
+const mongoose = require ('mongoose');
+const bodyParser = require ('body-parser');
+require('dotenv/config');
 
- app.use(bodyParser.json());
-// import routs 
-const postsRoute =require('./routes/posts');
+app.use(bodyParser.json());
+
+//import routes
+const postsRoute = require('./routes/posts');
 
 app.use('/posts', postsRoute);
 
- // routes
-
-app.get('/',(req,res)=>{
-     res.send('we are on home');
+//routes
+app.get('/', (req, res) =>{
+res.send('we are on home');
 });
 
+app.get('/posts', (req, res) =>{
+res.send('we are on posts');
+});
 
-
-// connect to DB
-mongoose.connect(process.env.DB_CONNECT,{ useNewUrlParser: true },
-()=>console.log('connected to DB!')
+//conect to db
+mongoose.connect (process.env.DB_CONNECT, { useNewUrlParser: true },() =>
+console.log('connectd DB!')
 );
-
-// listening to server 
-app.listen(3000);
+//how to listen to the server
+app.listen(3000); 
